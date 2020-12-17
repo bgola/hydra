@@ -6,6 +6,14 @@ I added an OSC receiver so I can send OSC messages to eval javascript code. My m
 
 To bridge between the browser and SuperCollider I use osc.js with WebSocketOSC and my own https://github.com/bgola/ws2udp
 
+For a simple setup follow the instructions below to run Hydra locally, install ws2udp and then:
+
+$ npm run start
+
+$ ws2udp
+
+Now use your favorite tool to send OSC messages to your `localhost:57142`. The message address should be `/code` and the argument should be valid Hydra code.
+
 # Hydra
 ![hydra](https://github.com/ojack/hydra/blob/master/hydra-3-01.png?raw=true)
 
