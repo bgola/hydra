@@ -24,7 +24,7 @@ $ oscer --ip 127.0.0.1 --port 57142 /code "
 > osc(30,0.011).rotate(Math.PI*0.5).modulate(osc(5, 0.1).rotate(Math.PI*0.5)).out(o1);
 > src(o0).blend(o1).out(o2);
 > render(o2)"
-``
+```
 
 # Hydra
 ![hydra](https://github.com/ojack/hydra/blob/master/hydra-3-01.png?raw=true)
