@@ -1,6 +1,6 @@
 # Fork:
 
-This is my fork of Hydra by @ojack
+This is my fork of Hydra by https://github.com/ojack
 
 I added an OSC receiver so I can send OSC messages to eval javascript code. My main usage is to send new Hydra code / patches from SuperCollider.
 
