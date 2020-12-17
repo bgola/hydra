@@ -16,6 +16,10 @@ and
 
 Now use your favorite tool to send OSC messages to your `localhost:57142`. The message address should be `/code` and the argument should be valid Hydra code.
 
+For example using https://github.com/bgola/oscer:
+
+`$ oscer --ip 127.0.0.1 --port 57142 /code "osc(111,0.011).modulate(osc(111.1, 0.01)).out(o0); render(o0)"`
+
 # Hydra
 ![hydra](https://github.com/ojack/hydra/blob/master/hydra-3-01.png?raw=true)
 
