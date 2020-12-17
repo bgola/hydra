@@ -1,3 +1,11 @@
+# Fork:
+
+This is my fork of Hydra by @ojack
+
+I added an OSC receiver so I can send OSC messages to eval javascript code. My main usage is to send new Hydra code / patches from SuperCollider.
+
+To bridge between the browser and SuperCollider I use osc.js with WebSocketOSC and my own https://github.com/bgola/ws2udp
+
 # Hydra
 ![hydra](https://github.com/ojack/hydra/blob/master/hydra-3-01.png?raw=true)
 
