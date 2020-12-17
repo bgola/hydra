@@ -26,6 +26,9 @@ $ oscer --ip 127.0.0.1 --port 57142 /code "
 > render(o2)"
 ```
 
+In the [examples/](./examples) folder there is also a SuperCollider example to generate Hydra code and send via OSC.
+
+
 # Hydra
 ![hydra](https://github.com/ojack/hydra/blob/master/hydra-3-01.png?raw=true)
 
