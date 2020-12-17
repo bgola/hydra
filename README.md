@@ -18,7 +18,7 @@ Now use your favorite tool to send OSC messages to your `localhost:57142`. The m
 
 For example using https://github.com/bgola/oscer:
 
-`$ oscer --ip 127.0.0.1 --port 57142 /code "osc(111,0.011).modulate(osc(111.1, 0.01)).out(o0); render(o0)"`
+`$ oscer --ip 127.0.0.1 --port 57142 /code "osc(30,0.10).modulate(osc(5, 0.12)).out(o0); osc(30,0.011).rotate(Math.PI*0.5).modulate(osc(5, 0.1).rotate(Math.PI*0.5)).out(o1); src(o0).blend(o1).out(o2); render(o2)"`
 
 # Hydra
 ![hydra](https://github.com/ojack/hydra/blob/master/hydra-3-01.png?raw=true)
